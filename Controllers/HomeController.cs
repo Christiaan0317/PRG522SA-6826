@@ -25,6 +25,7 @@ namespace PRG522SA_6826.Controllers
             return View();
         }
 
+        [Authorize]
         public ActionResult Portfolio()
         {
             return View();
